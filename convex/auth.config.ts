@@ -2,7 +2,7 @@
 export default {
   providers: [
     {
-      domain: process.env.NEXT_PUBLIC_CONVEX_API_CLERK_URL!,
+      domain: "https://factual-roughy-94.clerk.accounts.dev",
       applicationID: "convex",
     },
   ]
